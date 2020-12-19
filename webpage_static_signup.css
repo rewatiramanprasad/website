@@ -1,0 +1,114 @@
+body{
+    
+    margin: 20;
+    padding: 0;
+    background-image: url({{ url_for('static', filename="22.jpg") }});
+
+
+    background-color: transparent;
+    
+}
+.col{
+    width: 571px;
+    height: 472px;
+    box-shadow: 0px 0px 10px #000;
+    position: absolute;
+    top: 18%;
+    left: 22%;
+}
+#row1 {
+
+    
+
+}
+#row2 {
+
+    width: 260px;
+    height: 472px;
+    background-color: orangered;
+    position: absolute;
+    top: 0%;
+    left: 57%;
+    
+}
+
+
+.form1{
+
+    position: absolute;
+    top: 21%;
+    left: 1%;
+}
+
+h3{
+    
+    margin: 63;
+    padding: 1;
+    font-weight: bold;
+    text-align: center;
+    font-size: 32px;
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    color: #fff;
+}
+.inpu{
+    width: 277%;
+    left: 41%;
+    position: absolute;
+    border: 0;
+    align-items: center;
+    border-bottom: 3px solid orangered;
+    background: transparent;
+    text-align: center;
+    font-weight: bold;
+}    
+.inpu1{
+
+    width: 202%;
+    left: 253%;
+    position: absolute;
+    border: 0;
+    align-items: center;
+    border-bottom: 3px solid orangered;
+    background: transparent;
+    text-align: center;
+    font-weight: bold;
+}    
+
+.inpu2{
+
+    width: 190%;
+    left: 41%;
+    position: absolute;
+    border: 0;
+    align-items: center;
+    border-bottom: 3px solid orangered;
+    background: transparent;
+    text-align: center;
+    font-weight: bold;
+}    
+img{
+    position: absolute;
+    top:40%;
+    left: 0%;
+}
+input[type="submit"]{
+    width: 221%;
+    background-color: orangered;
+    color: #fff;
+    border-radius: 50%;
+    border: orangered;
+    margin: 66%;
+
+}
+a.lin{ width: 190%;
+    left: 41%;
+    position: absolute;
+    border: 0;
+    align-items: center;
+    
+    
+   
+    font-weight: bold;
+}
