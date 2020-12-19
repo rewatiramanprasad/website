@@ -1,0 +1,71 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: azure;
+}
+header{
+    background-color: orangered;
+    display:flex;
+    justify-content: flex-end;
+    
+}
+h4{
+    
+background-color: orangered;
+    margin:6px;
+    color: whitesmoke;
+    margin-right: auto;
+    
+}
+nav{
+    background-color: orangered;
+    text-transform: uppercase;
+    margin:9px;
+   text-decoration-color: black;
+    display:flex;
+    justify-content: space-between;
+}
+.a1{
+    
+    color: whitesmoke;
+    margin: left;
+    
+}
+nav .a1:hover{
+    color: black;
+}
+button{
+    
+    background-color: orangered;
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+    
+}
+.a2{
+    color: whitesmoke;
+    font-size:16px;
+    text-transform:uppercase; 
+}
+
+h5,p{
+    
+    color:black;
+    backface-visibility: visible;
+        background-color: transparent;
+}
+#ppp
+{
+    background-color: transparent;
+}
+#ppo{
+    
+    background-color: black;
+}
+main{
+    margin: 50px;
+   
+    width: auto;
+}
